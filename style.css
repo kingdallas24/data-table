@@ -1,0 +1,71 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-spacing: 2rem;
+  overflow: scroll;
+  border: 1px solid #a5b2f4;
+  border-radius: 10px;
+
+  background-color: #f8f8f8;
+
+  border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+  border: 1px solid #a5b2f4;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+td,
+th {
+  vertical-align: middle;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  padding-left: 5px;
+  padding-right: 80px;
+  text-align: left;
+}
+
+.id,
+.submission {
+  font-family: monospace;
+}
+
+caption {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+th {
+  background-color: #a5b2f4;
+  position: sticky;
+  top: 0;
+}
+
+svg {
+  position: absolute;
+  top: 6px;
+  right: 1px;
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+th {
+  resize: horizontal;
+
+  overflow: hidden;
+}
